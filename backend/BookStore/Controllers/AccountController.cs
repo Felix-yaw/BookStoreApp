@@ -10,7 +10,7 @@ namespace BookStore.API.Controllers
     [Route("api/[controller]")]
     public class AccountController : ControllerBase
     {
-        private readonly IAuthService _authServices;
+        private readonly IAuthService _authService;
 
         public AccountController(IAuthService authService)
         {
