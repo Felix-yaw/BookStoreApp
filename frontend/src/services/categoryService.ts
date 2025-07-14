@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { Category } from '../types/models';
-import { API_BASE_URL, getApiHeaders } from '../constants/api';
+import { API_BASE_URL } from '../constants/api';
 
 // Create axios instance with auth interceptor
 const api = axios.create({
