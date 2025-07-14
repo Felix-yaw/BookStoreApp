@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { Book, CreateBookRequest, Category } from '../types/models';
+import { Book, CreateBookRequest } from '../types/models';
 import { API_BASE_URL, getApiHeaders } from '../constants/api';
 import { getAllCategories } from './categoryService';
 
