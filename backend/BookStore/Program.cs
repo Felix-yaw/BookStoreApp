@@ -78,7 +78,7 @@ public class Program
         {
             options.AddDefaultPolicy(policy =>
             {
-                policy.WithOrigins("http://localhost:3000") 
+                policy.WithOrigins("http://localhost:3000", "https://book-store-app-sable-iota.vercel.app") 
                       .AllowAnyHeader()
                       .AllowAnyMethod();
             });
