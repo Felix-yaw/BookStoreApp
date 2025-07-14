@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { Book, CreateBookRequest } from '../types/models';
-import { API_BASE_URL, getApiHeaders } from '../constants/api';
+import { API_BASE_URL } from '../constants/api';
 import { getAllCategories } from './categoryService';
 
 // Create axios instance with auth interceptor
