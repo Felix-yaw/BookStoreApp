@@ -1,7 +1,6 @@
-import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { LoginRequest, RegisterRequest } from '../types/models';
 import { loginApi, registerApi } from '../services/authService';
-import { toast } from 'react-hot-toast';
 
 interface AuthContextType {
   token: string | null;
