@@ -1,5 +1,5 @@
 // API Configuration
-export const API_BASE_URL = 'http://localhost:5285';
+export const API_BASE_URL = 'https://bookstoreapp-5ksy.onrender.com';
 
 // Common API headers
 export const getApiHeaders = () => {
